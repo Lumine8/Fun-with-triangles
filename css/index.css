@@ -12,3 +12,15 @@ body{
 .anglestri .div{
     font-weight: lighter;
 }
+
+.anglestri input{
+    border-radius: 10px;
+}
+
+.anglestri button{
+    border-radius: 5px;
+}
+
+.anglestri button:hover{
+    cursor: pointer;
+}

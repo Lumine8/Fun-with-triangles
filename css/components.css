@@ -1,6 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
 :root{
     --primary-color: #2E86B7;
+}
+.nav-div h1{
+    font-family: 'Rubik Moonrocks', cursive;
+    font-weight: 100;
 }
 
 .nav-div{

@@ -11,5 +11,5 @@ function calculate(a,b){
 }
 
 function hypotenuse(){
-    output.innerHTML = "The Hypotenuse of the triangle is: " + calculate(parseInt(a.value),parseInt(b.value))
+    output.innerHTML = "The area of the triangle is: " + calculate(parseInt(a.value),parseInt(b.value))
 }
