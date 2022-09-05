@@ -1,10 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');*/
+@import url("https://fonts.googleapis.com/css2?family=Megrim&display=swap");
+
 :root{
     --primary-color: #2E86B7;
 }
 .nav-div h1{
-    font-family: 'Rubik Moonrocks', cursive;
-    font-weight: 100;
+    /*font-family: 'Rubik Moonrocks', cursive;*/
+    font-family: "Megrim", cursive;
+
+    font-weight: 600;
 }
 
 .nav-div{
@@ -20,7 +24,6 @@
 .nav .nav-li a{
     text-decoration: none;
     color: aliceblue;
-    
 }
 
 .nav .nav-ul .nav-li{
@@ -34,3 +37,6 @@
     margin: 0px auto;
 }
 
+.nav .nav-li a:hover{
+    color:lightcyan;
+}
